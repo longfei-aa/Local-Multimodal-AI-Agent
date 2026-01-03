@@ -88,7 +88,8 @@ python main.py add_paper ~/Downloads/transformer.pdf --topics "CV,NLP,RL"
 # 预期: 自动识别为 NLP 主题并移动到 data/papers/NLP/
 ```
 
-![截屏2026-01-04 01.00.49](images/截屏2026-01-04 01.00.49.png)
+<img src="images/截屏2026-01-04 01.00.49.png"/>
+
 
 **批量整理测试**
 
@@ -98,8 +99,12 @@ python main.py organize_papers ~/Downloads/test_papers --topics "CV,NLP,RL"
 ```
 
 ![截屏2026-01-04 01.07.44](images/截屏2026-01-04 01.07.44.png)
+<img src="images/截屏2026-01-04 01.07.44.png"/>
+
 
 ![截屏2026-01-04 01.08.02](images/截屏2026-01-04 01.08.02.png)
+<img src="images/截屏2026-01-04 01.08.02.png"/>
+
 
 **语义搜索测试**
 
@@ -114,11 +119,12 @@ python main.py search_paper "transformer attention mechanism"
 python main.py search_paper "policy gradient methods"
 ```
 
-![截屏2026-01-04 01.05.25](images/截屏2026-01-04 01.05.25.png)
+<img src="images/截屏2026-01-04 01.05.25.png"/>
 
-![截屏2026-01-04 01.05.34](images/截屏2026-01-04 01.05.34.png)
+<img src="images/截屏2026-01-04 01.05.34.png"/>
 
-![截屏2026-01-04 01.23.21](images/截屏2026-01-04 01.23.21.png)
+<img src="images/截屏2026-01-04 01.23.21.png"/>
+
 
 **验证结果**
 
@@ -128,7 +134,8 @@ ls data/papers/NLP/     # 应包含约20篇NLP论文
 ls data/papers/RL/      # 应包含约20篇RL论文
 ```
 
-![截屏2026-01-04 01.09.09](/Users/shelongfei/Documents/课程学习/多模态机器学习/Experiment2/images/截屏2026-01-04 01.09.09.png)
+<img src="images/截屏2026-01-04 01.09.09.png"/>
+
 
 总体准确率：98.33% (59/60，gan被误分)
 
@@ -139,9 +146,11 @@ ls data/papers/RL/      # 应包含约20篇RL论文
 python main.py index_images ~/Downloads/test_images
 ```
 
-![截屏2026-01-04 01.25.18](images/截屏2026-01-04 01.25.18.png)
+<img src="images/截屏2026-01-04 01.25.18.png"/>
 
-![截屏2026-01-04 01.10.05](images/截屏2026-01-04 01.10.05.png)
+
+<img src="images/截屏2026-01-04 01.10.05.png"/>
+
 
 ```bash
 # 搜索图像
@@ -149,7 +158,7 @@ python main.py search_image "sunset by the sea" --top_k 1
 python main.py search_image "autumn leaves" --top_k 1
 ```
 
-![截屏2026-01-04 01.15.15](images/截屏2026-01-04 01.15.15.png)
+<img src="images/截屏2026-01-04 01.15.15.png"/>
 
 <img src="images/4.jpg" width="50%" />
 
